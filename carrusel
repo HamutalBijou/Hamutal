@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamutal - Inicio</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#promos">Promociones</a></li>
+      <li><a href="#articulos">Articulos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Carrusel de imágenes -->
+  <div class="carousel-container">
+    <div class="carousel">
+      <img src="imagenes/producto1.jpg" alt="Producto 1">
+      <img src="imagenes/producto2.jpg" alt="Producto 2">
+      <img src="imagenes/promo1.jpg" alt="Promo 1">
+    </div>
+  </div>
+
+  <script src="carrusel.js"></script>
+</body>
+</html>
